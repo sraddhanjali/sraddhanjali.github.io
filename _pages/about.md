@@ -10,15 +10,28 @@ profile:
   image: myphoto.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>GHC 5007</p>
-    <p>4902 Forbes Ave</p>
-    <p>Pittsburgh, PA 15213</p>
+    <p>San Diego</p>
+    <p>California</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Ziyue Qiu (邱子悦 in Chinese), a fourth-year PhD student in the Computer Science Department at Carnegie Mellon University, advised by [Greg Ganger](http://users.ece.cmu.edu/~ganger/) and [George Amvrosiadis](http://users.ece.cmu.edu/~gamvrosi/). I am interested in storage systems, cloud computing and other system issues.
 
-Previously, I was fortunate to work with Prof. [Cheng Li](http://staff.ustc.edu.cn/~chengli7/) at USTC, Prof. [Xiaosong Ma](https://www.hbku.edu.qa/en/staff/dr-xiaosong-ma) at Qatar Computing Research Institute & HKBU, Dr. [Qi Chen](https://www.microsoft.com/en-us/research/people/cheqi/), Dr. [Mao Yang](https://www.microsoft.com/en-us/research/people/maoyang/) at MSR-Asia.
+Sam (Sraddhanjali) Acharya (श्रद्धाञ्जली आचार्य in Nepali). I am a biometrics researcher turned entrepreneur with a PhD in computer science. She defended my Ph.D. in Computer Science from Texas Tech University advised by [Dr. Abdul Serwadda](https://www.depts.ttu.edu/cs/faculty/abdul_serwadda/index.php). She has designed wearable systems that become smarter through machine learning enhancing security, enabling authentication, and uncovering hidden privacy risks. She is interested in biometrics, security, privacy, side-channel analysis and machine learning. 
+
+At Qualcomm, she scaled that expertise to the hardware level, leveraging large-scale anomaly analytics and refactoring pipelines to save up to 50% in cloud resources.
+
+Today, she blends her foundation in information system design, biometrics, machine learning, LLMOps, and AWS to help people and companies build secure, efficient, and scalable products from research prototypes.
+
+**Check some of her work:
+**
+1. Biometrics for wearables (biometrics, wearables, machine learning)
+2. grAInny bot for content moderation for Farcaster (web3 mini-app)
+3. Fitness app (iOS, World, web3 mini-app)
+4. Psychic pomodoro (iOS, LLMOps)
+5. Hospital scheduling (web, LLMOps, AI assisted scheduling)
+
+
+

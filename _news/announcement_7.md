@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-10-15 12:00:00-0400
+date: 2021-09-22 12:00:00-0400
 inline: true
 ---
 
-I presented my work on job and data placement in hybrid clouds virtually at [SOSP'25](https://dl.acm.org/doi/10.1145/3731569.3764802).
+Presented my paper "On Finger Stretching and Bending Dynamics as a Biometric Modality" virtually at [SmartNets'21](https://smartnets.ieee.tn/wp-content/uploads/sites/69/2025/07/Program_SmartNets2021_Site.pdf) and received best [paper](https://www.researchgate.net/profile/Sraddhanjali_Acharya/publication/355118389_On_Finger_Stretching_and_Bending_Dynamics_as_a_Biometric_Modality/links/616ac519951b3574c64c00c3/On-Finger-Stretching-and-Bending-Dynamics-as-a-Biometric-Modality.pdf) award.

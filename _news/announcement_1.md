@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-09-15 09:20:00-0400
+date: 2016-08-01
 inline: true
 ---
 
-New theme for my homepage! New start in CMU :) :sparkles:
+Joined [Prof. Mahshid Rahnamay-Naeini](https://faculty.eng.usf.edu/mnaeini/)'s lab at Texas Tech University to pursue Ph.D. in Computer Science in the field of Software Defined Networking. :sparkles:

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-03-01 12:00:00-0400
+date: 2017-06-06 12:00:00-0400
 inline: true
 ---
 
-My first research work FrozenHot will appear on EuroSys'23. [Details](https://2023.eurosys.org/accepted-papers.html) here.
+Joined [Prof. Abdul Serwadda](https://www.depts.ttu.edu/cs/faculty/abdul_serwadda/index.php)'s lab at Texas Tech University to work on Biometrics, Wearables, Mobile security and Machine Learning. 

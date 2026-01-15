@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-11-18 12:00:00-0400
+date: 2024-11-27 12:00:00-0400
 inline: true
 ---
 
-Two recent works—one on cache modeling and another on lazy promotion—have been accepted to Queueing Systems (QUESTA) Special Issue: 40 Years of QUESTA and VLDB 2026, respectively.
+Defended [dissertation](https://ttu-ir.tdl.org/items/6311588f-d6cd-4422-a56b-c03d14321e64) and [graduated](https://www.depts.ttu.edu/officialpublications/pdfs/commencement_program_2021_12.pdf) Dec 10th, 2021 with Ph.D. in Computer Science

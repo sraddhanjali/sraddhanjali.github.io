@@ -2,32 +2,42 @@
   type: map
   contents:
     - name: Full Name
-      value: Ziyue Qiu
+      value: Sraddhanjali (Sam) Acharya
     - name: Date of Birth
-      value: Jan 2002
+      value: June 1991
     - name: Languages
-      value: English, Mandarin
+      value: English, Hindi, Nepali
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: Carnegie Mellon University (CMU), Pittsburgh, USA
-      year: 2022
+      institution: Texas Tech University (TTU), Lubbock, USA
+      year: 2021
       description:
         - Computer Science
-        - Advisor(s) Greg Ganger and George Amvrosiadis
+        - Advisor(s) Dr. Abdul Serwadda
+        - title: Thesis
+          contents: 
+            - link: https://ttu-ir.tdl.org/items/6311588f-d6cd-4422-a56b-c03d14321e64
+        - Google Scholar: 
+          contents:
+            - link: https://scholar.google.com/citations?user=_BCCe2gAAAAJ&hl=en
+        - title: Honors
+          contents:
+            - Entrepreneurial Scholarship
+            - Fellowship for PhD Studies
+
     - title:  Bachelor
-      institution: University of Science and Technology of China (USTC), Hefei, China
-      year: 2018
+      institution: Pulchowk Campus, Tribhuvan University, Lalitpur, Nepal
+      year: 2014
       description:
-        - Computer Science and Technology
-        - Advisor Cheng Li
-        - GPA 3.92/4.3
+        - Electronics and Communication Engineering
+        - Advisor 
+        # - GPA 3.92/4.3
         - title: Special Honors
           contents:
-            - Special Class for the Gifted Young (under 16 years old)
-            - Hua Xia Talent Program
+            - 
 
 - title: Experience
   type: time_table
@@ -42,20 +52,19 @@
     #       contents:
     #         - Sub-description 1.
     #         - Sub-description 2.
-    - title: Research Intern
-      institution: Data Infrastructure Team, Uber
-      year: 2023-present
+    - title: Forme Labs 
+      institution: Research&D, San Diego, USA
+      year: 2024-present
       description:
-        - Working on Moirai and a follow-up project, optimizing both performance and cost on Uber infrastructure
-    - title: Research Intern
-      institution: System Group, Microsoft Research Asia
-      year: 2021-2022
+        - Marketing, HR automation & analytics
+    - title: Senior Software Engineer
+      institution: Qualcomm, San Diego, USA
+      year: 2022-2024
       description:
-        - Worked on caching project
-
-    - title: Undergraduate Researcher
-      institution: Advanced Data Systems Laboratory (ADSL), USTC, Hefei, China
-      year: 2021-2022
+        - Automation, Anomaly Detection and Cloud Resource Optimization.
+    - title: Graduate Researcher
+      institution: Texas Tech University, Lubbock, Texas, USA
+      year: 2016-2021
 
 
 # - title: Open Source Projects
@@ -68,38 +77,51 @@
 - title: Conference talks
   type: time_table
   contents:
-    - year: 2025
+    - year: 2021
       items: 
-        - Presented “Moirai - Optimizing Placement of Data and Compute in Hybrid Clouds.” at SOSP 2025 (virtual)
-    - year: 2024
+        - Presented “On Finger Stretching and Bending Dynamics as a Biometric Modality” at 2021 International Conference on Smart Applications, Communications and Networking (SmartNets) (virtual)
+    - year: 2021
       items: 
-        - Co-presented “Data Caching for Enterprise-Grade Petabyte-Scale OLAP.” at USENIX ATC 2024
-    - year: 2023
+        - Presented “That phone charging hub knows your youtube playlist!” at 2021 IEEE SmartWorld, Ubiquitous Intelligence & Computing, Advanced & Trusted Computing, Scalable Computing & Communications, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/IOP/SCI) (virtual).
+    - year: 2019
       items: 
-        - Presented “FrozenHot Cache - Rethinking Cache Management for Modern Hardware.” at EuroSys 2024
+        - Presented “Gamification of wearable data collection':'' A tool for both friend and foe” at Proceedings of the 2019 3rd international conference on compute and data analysis.
 
-- title: Services
-  type: time_table
-  contents:
-    - year: 2024
-      items: 
-        - Artifact Evaluation committee - SIGCOMM 2024, EuroSys 2025, SIGCOMM 2025, FAST 2026, NSDI 2026
+# - title: Services
+#   type: time_table
+#   contents:
+#     - year: 2024
+#       items: 
+#         - Artifact Evaluation committee - SIGCOMM 2024, EuroSys 2025, SIGCOMM 2025, FAST 2026, NSDI 2026
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2021
+    - year: 2016
       items: 
-        - China National Scholarship (Top 1%)
-    - year: 2020
-      items: 
-        - SGY Sihua Scholarship (4/50)
-        - Hua Xia Talent Program First Prize Scholarship
-        - Zhong Hai Memorial Scholarship (2/200)
+        - JT & Margaret Talking Fellowship for PhD Studies (4 years)
     - year: 2019
       items: 
         - SGY Class of 87 Innovation Scholarship (10/1,000) 
         - Chen Guoliang Scholarship (Top 10%) 
+
+- title: Certifications
+  type: time_table
+  contents:
+    
+    - year: August 27, 2025
+      items: 
+        - [Deploy AI Apps with Cloudflare](https://www.coursera.org/account/accomplishments/verify/PQMHNAP8J7UY) by Coursera Network (Scrimba)
+    - year: February 25, 2025
+      items:
+        - [Build a CI/CD Pipeline with Docker':'' From Code to Deployment, Coursera Network](https://www.coursera.org/account/accomplishments/verify/8D4Z2FWERXOD) 
+    - year: Dec 6, 2024
+      items: 
+        - [Python Essentials for MLOps — Machine Learning Operations Specialization](https://www.coursera.org/account/accomplishments/verify/XAVVM81WKEJ0), Duke University, US
+    - year: July 19,2019
+      items: 
+        - [Machine Learning Engineer — Nanodegree](https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/2cb926c3-bafe-42a6-ae3a-a8aa1f2b3220.pdf), Udacity, US
+
 
 # - title: Academic Interests
 #   type: nested_list
@@ -116,4 +138,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Ultimate Frisbee, rock climbing, Texas poker, stand-up comedy, Sudoku, Criminology, Anime
+    - <u>Hobbies:</u> Surfing, Texas poker, Weight lifting, Sudoku, Swimming, Art, Cooking, Reading, Writing, Content Creation.

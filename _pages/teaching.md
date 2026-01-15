@@ -7,6 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-2024, TA, 18-746 Storage Systems (Fall), CMU
+2020, TA, Computational Thinking with Data Science (Fall), TTU
 
-2021, TA, Mathematical Logic (Spring), USTC
+2021, TA, Computational Thinking with Data Science (Spring), TTU

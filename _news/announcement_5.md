@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-11-27 12:00:00-0400
+date: 2020 12:00:00-0400
 inline: true
 ---
 
-Invited to present my ongoing work, in collaboration with Uber, at the Salesforce Database Team reading group (virtually).
+**Entrepreneurial Lead for [Defensive Charging]**(https://www.depts.ttu.edu/research/research-park/portfolio/nsf-i-corps/teams/Fall_2020/Defensive-Charging/index.php) under NSF I-Corps Team, Fall 2020.
