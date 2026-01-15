@@ -123,3 +123,89 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+---
+
+## Related Projects
+
+<style>
+.projects-scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 20px 0;
+  margin: 20px 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-theme-color) transparent;
+}
+
+.projects-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.projects-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.projects-scroll-container::-webkit-scrollbar-thumb {
+  background-color: var(--global-theme-color);
+  border-radius: 4px;
+}
+
+.projects-scroll-wrapper {
+  display: inline-flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.projects-scroll-item {
+  flex: 0 0 auto;
+  width: 300px;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .projects-scroll-item {
+    width: 250px;
+    min-width: 250px;
+  }
+}
+</style>
+
+<div class="projects-scroll-container">
+  <div class="projects-scroll-wrapper">
+    {% assign project_titles = "project 2,project 3,project 4" | split: "," %}
+    {% for title in project_titles %}
+      {% assign project = site.projects | where: "title", title | first %}
+      {% if project %}
+        <div class="projects-scroll-item">
+          {% if project.redirect %}
+            <a href="{{ project.redirect }}">
+          {% else %}
+            <a href="{{ project.url | relative_url }}">
+          {% endif %}
+            <div class="card hoverable">
+              {% if project.img %}
+                {% include figure.html path=project.img alt="project thumbnail" %}
+              {% endif %}
+              <div class="card-body">
+                <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+                <p class="card-text">{{ project.description }}</p>
+                {% if project.github %}
+                <div class="row ml-1 mr-1 p-0">
+                  <div class="github-icon">
+                    <div class="icon" data-toggle="tooltip" title="Code Repository">
+                      <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

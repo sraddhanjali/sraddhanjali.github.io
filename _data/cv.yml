@@ -1,43 +1,32 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Sraddhanjali (Sam) Acharya
-    - name: Date of Birth
-      value: June 1991
-    - name: Languages
-      value: English, Hindi, Nepali
+- title: Sraddhanjali (Sam) Acharya
+  # type: map
+  # contents:
+  #   - name: Full Name
+  #     value: Sraddhanjali (Sam) Acharya
+  #   # - name: Languages
+  #   #   value: 
+  #   #   - English
+  #   #   - Hindi
+  #   #   - Nepali
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Computer Science
       institution: Texas Tech University (TTU), Lubbock, USA
       year: 2021
       description:
-        - Computer Science
-        - Advisor(s) Dr. Abdul Serwadda
-        - title: Thesis
-          contents: 
-            - link: https://ttu-ir.tdl.org/items/6311588f-d6cd-4422-a56b-c03d14321e64
-        - Google Scholar: 
-          contents:
-            - link: https://scholar.google.com/citations?user=_BCCe2gAAAAJ&hl=en
-        - title: Honors
-          contents:
-            - Entrepreneurial Scholarship
-            - Fellowship for PhD Studies
+        - Advisor Dr Abdul Serwadda 
+        - Disssertation Wearable flex sensors at the human computer interface Investigating security applications and privacy threats
+        - J.T. & Margaret Talkington Fellowship for PhD Studies (4 years)
+         
 
-    - title:  Bachelor
+    - title:  Bachelor in Electronics and Communication Engineering
       institution: Pulchowk Campus, Tribhuvan University, Lalitpur, Nepal
       year: 2014
       description:
-        - Electronics and Communication Engineering
-        - Advisor 
-        # - GPA 3.92/4.3
-        - title: Special Honors
-          contents:
-            - 
+        - Advisor Dr Dibakar Pant
+        - Thesis Laser Pointer based human computer interaction using computer vision
 
 - title: Experience
   type: time_table
@@ -53,7 +42,7 @@
     #         - Sub-description 1.
     #         - Sub-description 2.
     - title: Forme Labs 
-      institution: Research&D, San Diego, USA
+      institution: R&D, San Diego, USA
       year: 2024-present
       description:
         - Marketing, HR automation & analytics
@@ -61,10 +50,15 @@
       institution: Qualcomm, San Diego, USA
       year: 2022-2024
       description:
-        - Automation, Anomaly Detection and Cloud Resource Optimization.
+        - Automation, Anomaly Detection and Cloud Resource Optimization
     - title: Graduate Researcher
       institution: Texas Tech University, Lubbock, Texas, USA
       year: 2016-2021
+    - title: Entrepreneurial Lead
+      institution: Texas Tech University, Lubbock, Texas, USA
+      year: 2020-2021
+      description:
+        - Entrepreneurial Lead for Defensive Charging under NSF I-Corps Team, Fall 2020.
 
 
 # - title: Open Source Projects
@@ -85,7 +79,8 @@
         - Presented “That phone charging hub knows your youtube playlist!” at 2021 IEEE SmartWorld, Ubiquitous Intelligence & Computing, Advanced & Trusted Computing, Scalable Computing & Communications, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/IOP/SCI) (virtual).
     - year: 2019
       items: 
-        - Presented “Gamification of wearable data collection':'' A tool for both friend and foe” at Proceedings of the 2019 3rd international conference on compute and data analysis.
+        - "Presented “Gamification of wearable data collection: A tool for both friend and foe” at Proceedings of the 2019 3rd international conference on compute and data analysis."
+
 
 # - title: Services
 #   type: time_table
@@ -99,28 +94,23 @@
   contents:
     - year: 2016
       items: 
-        - JT & Margaret Talking Fellowship for PhD Studies (4 years)
-    - year: 2019
-      items: 
-        - SGY Class of 87 Innovation Scholarship (10/1,000) 
-        - Chen Guoliang Scholarship (Top 10%) 
+        - J.T. & Margaret Talkington Fellowship for PhD Studies (4 years)
 
 - title: Certifications
   type: time_table
   contents:
-    
     - year: August 27, 2025
-      items: 
-        - [Deploy AI Apps with Cloudflare](https://www.coursera.org/account/accomplishments/verify/PQMHNAP8J7UY) by Coursera Network (Scrimba)
+      items:
+        - <a href="https://www.coursera.org/account/accomplishments/verify/PQMHNAP8J7UY"> Deploy AI Apps with Cloudflare by Coursera Network (Scrimba) https://www.coursera.org/account/accomplishments/verify/PQMHNAP8J7UY</a>
     - year: February 25, 2025
       items:
-        - [Build a CI/CD Pipeline with Docker':'' From Code to Deployment, Coursera Network](https://www.coursera.org/account/accomplishments/verify/8D4Z2FWERXOD) 
+        - <a href="https://www.coursera.org/account/accomplishments/verify/8D4Z2FWERXOD"> Build a CI/CD Pipeline with Docker From Code to Deployment, Coursera Network</a>
     - year: Dec 6, 2024
       items: 
-        - [Python Essentials for MLOps — Machine Learning Operations Specialization](https://www.coursera.org/account/accomplishments/verify/XAVVM81WKEJ0), Duke University, US
+        - <a href="https://www.coursera.org/account/accomplishments/verify/XAVVM81WKEJ0">Python Essentials for MLOps Machine Learning Operations Specialization, Duke University, US</a>
     - year: July 19,2019
       items: 
-        - [Machine Learning Engineer — Nanodegree](https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/2cb926c3-bafe-42a6-ae3a-a8aa1f2b3220.pdf), Udacity, US
+        - <a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/2cb926c3-bafe-42a6-ae3a-a8aa1f2b3220.pdf"> Machine Learning Engineer Nanodegree, Udacity, US </a>
 
 
 # - title: Academic Interests
@@ -138,4 +128,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Surfing, Texas poker, Weight lifting, Sudoku, Swimming, Art, Cooking, Reading, Writing, Content Creation.
+    - <u>Hobbies:</u> Surfing, Texas poker, Weight lifting, Sudoku, Swimming, Art, Cooking, Reading, Writing, Content Creation
