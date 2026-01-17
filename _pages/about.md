@@ -29,7 +29,7 @@ At Qualcomm, she scaled that expertise to the hardware level, leveraging large-s
 Today, she blends her foundation in information system design, biometrics, machine learning, LLMOps, and AWS to help people and companies build secure, efficient, and scalable products from research prototypes.
 
 <ul> Check out some of her work </ul>
-1. Biometrics for wearables (biometrics, wearables, machine learning) {% include _projects/1_project.md %}
+1. Biometrics for wearables (biometrics, wearables, machine learning)
 2. grAInny bot for content moderation for Farcaster (web3 mini-app)
 3. Fitness app (iOS, World, web3 mini-app)
 4. Psychic pomodoro (iOS, LLMOps)
