@@ -11,5 +11,5 @@ docker run --rm \
   -it amirpourmand/al-folio \
   bash -lc '
     bundle install &&
-    bundle exec jekyll serve --watch --port=8081 --host=0.0.0.0
+    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0
   '

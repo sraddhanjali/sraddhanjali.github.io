@@ -2,12 +2,12 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: My repositories
+description: Github repositories featuring different work
 nav: true
 nav_order: 3
 ---
 
-## GitHub users
+## My Github Stats
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -19,7 +19,7 @@ nav_order: 3
 
 ---
 
-## GitHub Repositories
+## Pinned GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
