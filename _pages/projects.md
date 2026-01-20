@@ -2,11 +2,11 @@
 ---
 layout: page
 permalink: /projects/
-title: Portfolio
+title: Projects
 description: work by categories
 years: [2021, 2020, 2019]
 nav: true
-nav_order: 1
+nav_order: 6
 ---
 <!-- _pages/publications.md -->
 <div class="projects">
