@@ -8,5 +8,5 @@ At Qualcomm, she scaled that expertise to the hardware level, leveraging large-s
 
 Today, she blends her foundation in information system design, biometrics, machine learning, LLMOps, and AWS to help people and companies build secure, efficient, and scalable products from research prototypes.
 
-Check out some of her [work]([https://github.com/sraddhanjali.github.io/blob/main/](https://sraddhanjali.github.io/portfolio)), [aiorderlabs.com](https://aiorderlabs.com) and her [site](https://sraddhanjali.github.io).
+Check out some of her [work](https://sraddhanjali.github.io/portfolio), [aiorderlabs.com](https://aiorderlabs.com) and her [site](https://sraddhanjali.github.io).
 
