@@ -10,9 +10,9 @@ email: tilaprimera@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -111,10 +111,10 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: ROLL ! # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Experience in Application to PhD program, Caching, etc
-permalink: /blog/:year/:title/
+# blog_name: Forme Labs Inc. # blog_name will be displayed in your blog page
+# blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+# blog_description: Building research grade ML products and tools.
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -136,6 +136,11 @@ disqus_shortname: # # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  posts:
+    defaults:
+      layout: post
+    output: true
+    permalink: /blog/:year/:title/
   news:
     defaults:
       layout: post
@@ -144,6 +149,25 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+# -----------------------------------------------------------------------------
+# Portfolio Categories
+# -----------------------------------------------------------------------------
+# Order of categories determines display order
+# Each category can filter projects by category field or title
+portfolio_categories:
+  - name: cv
+    label: Computer Vision
+    filter_type: category_equals
+    filter_value: Computer Vision
+  - name: llm
+    label: LLM
+    filter_type: category_equals
+    filter_value: AI Production Systems
+  - name: research
+    label: Research
+    filter_type: category_in
+    filter_value: Research Design, Sensing + hardware setup, Data Collection & Experiment Design, Signal Processing & Feature Logic, Research outcomes
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
@@ -223,7 +247,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['Flex Sensor', 'Biometrics', 'Authentication', 'SmartGloves', 'Security and privacy','Mobile and wireless security', 'Malware and its mitigation'] # this tags will be dispalyed on the front page of your blog
+# display_tags: ['Flex Sensor', 'Biometrics', 'Authentication', 'SmartGloves', 'Security and privacy','Mobile and wireless security', 'Malware and its mitigation'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

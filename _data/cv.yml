@@ -25,27 +25,17 @@
       institution: Pulchowk Campus, Tribhuvan University, Lalitpur, Nepal
       year: 2014
       description:
-        - Advisor Dr Dibakar Pant
+        - Advisor Dr Dibakar Raj Pant
         - Thesis Laser Pointer based human computer interaction using computer vision
 
 - title: Experience
   type: time_table
   contents:
-    # - title: Professor of Theoretical Physics
-    #   institution: Institute for Advanced Study, Princeton University
-    #   year: 1933 - 1955
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
-    #     - title: Description 3.
-    #       contents:
-    #         - Sub-description 1.
-    #         - Sub-description 2.
-    - title: Forme Labs 
+    - title: Forme Labs Inc.
       institution: R&D, San Diego, USA
       year: 2024-present
       description:
-        - Marketing, HR automation & analytics
+        - Automation, Market, ML & analytics
     - title: Senior Software Engineer
       institution: Qualcomm, San Diego, USA
       year: 2022-2024
@@ -61,13 +51,6 @@
         - Entrepreneurial Lead for Defensive Charging under NSF I-Corps Team, Fall 2020.
 
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Conference talks
   type: time_table
   contents:
@@ -80,14 +63,6 @@
     - year: 2019
       items: 
         - "Presented “Gamification of wearable data collection: A tool for both friend and foe” at Proceedings of the 2019 3rd international conference on compute and data analysis."
-
-
-# - title: Services
-#   type: time_table
-#   contents:
-#     - year: 2024
-#       items: 
-#         - Artifact Evaluation committee - SIGCOMM 2024, EuroSys 2025, SIGCOMM 2025, FAST 2026, NSDI 2026
 
 - title: Honors and Awards
   type: time_table
@@ -112,18 +87,6 @@
       items: 
         - <a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/2cb926c3-bafe-42a6-ae3a-a8aa1f2b3220.pdf"> Machine Learning Engineer Nanodegree, Udacity, US </a>
 
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
 
 - title: Other Interests
   type: list

@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to (Sraddhanjali) Acharya (श्रद्धाञ्जली आचार्य in Nepali) page. 
+Welcome to Sraddhanjali Acharya's  (श्रद्धाञ्जली आचार्य in Nepali) page. 
 
 She is a biometrics researcher turned entrepreneur with a PhD in computer science. She is interested in biometrics, security, privacy, side-channel analysis and machine learning. 
 
@@ -27,12 +27,6 @@ At Qualcomm, she scaled that expertise to the hardware level, leveraging large-s
 
 Today, she blends her foundation in information system design, biometrics, machine learning, LLMOps, and AWS to help people and companies build secure, efficient, and scalable products from research prototypes.
 
-<ul> Check out some of her work </ul>
-1. Biometrics for wearables (biometrics, wearables, machine learning)
-2. grAInny bot for content moderation for Farcaster (web3 mini-app)
-3. Fitness app (iOS, World, web3 mini-app)
-4. Psychic pomodoro (iOS, LLMOps)
-5. Hospital scheduling (web, LLMOps, AI assisted scheduling)
-
+Check out some of her [work](portfolio/).
 
 

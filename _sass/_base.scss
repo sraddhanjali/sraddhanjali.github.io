@@ -413,12 +413,104 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  margin-top: 2rem;
+  
   a {
     text-decoration: none;
 
     &:hover {
       .card-title {
         color: var(--global-theme-color);
+      }
+    }
+  }
+
+  
+  .portfolio-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, rgba(157, 78, 221, 0.05) 0%, rgba(181, 9, 172, 0.05) 100%);
+    border: 1px solid rgba(157, 78, 221, 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow: hidden;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #9D4EDD 0%, #B509AC 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    &:hover {
+      background: linear-gradient(135deg, rgba(157, 78, 221, 0.1) 0%, rgba(181, 9, 172, 0.1) 100%);
+      border-color: rgba(157, 78, 221, 0.4);
+      box-shadow: 0 4px 12px rgba(157, 78, 221, 0.15);
+      transform: translateY(-2px);
+      
+      &::before {
+        opacity: 1;
+      }
+    }
+    
+    .preview {
+      width: 100%;
+      min-width: 80px;
+      max-width: 200px;
+      
+      figure {
+        margin: 0;
+        
+        img {
+          width: 100%;
+          max-width: 200px;
+          height: auto;
+          object-fit: contain;
+          object-position: center;
+          display: block;
+        }
+      }
+    }
+    
+    .portfolio-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      
+      &:hover {
+        text-decoration: none;
+        
+        .portfolio-title {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+    
+    .portfolio-content {
+      .portfolio-title {
+        font-weight: bolder;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+        color: var(--global-text-color);
+        transition: color 0.2s ease;
+      }
+      
+      .portfolio-description {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        color: var(--global-text-color);
+        line-height: 1.5;
+      }
+      
+      .portfolio-links {
+        margin-top: 0.5rem;
       }
     }
   }
@@ -445,13 +537,50 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
+    padding-bottom: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
   }
+  
+  // Mobile responsiveness
+  @media (max-width: 767.98px) {
+    .portfolio-item {
+      .preview {
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        
+        figure {
+          display: flex;
+          justify-content: center;
+          margin: 0;
+          
+          img {
+            max-width: 150px;
+            width: auto;
+            margin: 0 auto;
+          }
+        }
+      }
+      
+      .portfolio-content {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+      }
+    }
+    
+    h2.category {
+      text-align: center;
+    }
+  }
+  
 }
 
 
@@ -459,6 +588,7 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+  
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -472,21 +602,44 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
-  h2.year {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
-  }
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      background: linear-gradient(135deg, rgba(157, 78, 221, 0.05) 0%, rgba(181, 9, 172, 0.05) 100%);
+      border: 1px solid rgba(157, 78, 221, 0.2);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      opacity: 1;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #9D4EDD 0%, #B509AC 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      
+      &:hover {
+        background: linear-gradient(135deg, rgba(157, 78, 221, 0.1) 0%, rgba(181, 9, 172, 0.1) 100%);
+        border-color: rgba(157, 78, 221, 0.4);
+        box-shadow: 0 4px 12px rgba(157, 78, 221, 0.15);
+        transform: translateY(-2px);
+        
+        &::before {
+          opacity: 1;
+        }
+      }
       .preview {
         width: 100%;
         min-width: 80px;
@@ -626,6 +779,16 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post{
+  .post-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+    .post-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
   .post-meta{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
